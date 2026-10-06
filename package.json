@@ -1,0 +1,10 @@
+{
+  "name": "bastonnade",
+  "private": true,
+  "type": "module",
+  "description": "Jeu de combat 2D en 1v1 peer-to-peer. Servir le dossier avec un serveur statique.",
+  "scripts": {
+    "start": "npx --yes http-server -c-1 -p 8080 .",
+    "test": "node tests/rollback_test.js && node tests/bot_test.js"
+  }
+}
